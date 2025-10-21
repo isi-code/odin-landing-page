@@ -22,7 +22,16 @@ nav ul {
     margin-right: 4rem;
 }
 
-.logo{
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
     font-weight: 700;
     font-size: 24px;
     color: white;
