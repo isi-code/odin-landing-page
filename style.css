@@ -129,3 +129,27 @@ nav ul li a:hover {
     width: 80%;
     height: 150px;
 }
+
+.illustration-section .container .subcontainer span {
+    width: 80%;
+}
+
+/*illustration section ends*/
+
+/*Cite section starts*/
+.cite-section{
+    background-color: #E5E7EB;
+    padding: 6rem;
+    color: #1F2937;
+}
+
+.cite-section p.quote{
+    font-weight: 300;
+    font-size: 36px;
+    text-align: left;
+}
+
+.cite-section p:nth-child(2){
+    text-align: right;
+    margin-right:20px;
+}
