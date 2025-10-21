@@ -133,7 +133,6 @@ nav ul li a:hover {
 .illustration-section .container .subcontainer span {
     width: 80%;
 }
-
 /*illustration section ends*/
 
 /*Cite section starts*/
@@ -152,4 +151,40 @@ nav ul li a:hover {
 .cite-section p:nth-child(2){
     text-align: right;
     margin-right:20px;
+}
+
+.signup-ad{
+    background-color: #3882f6;
+    width: 75%;
+    color: white;
+    margin:4rem auto;
+    padding: 2.5rem;
+    border-radius:10px;
+}
+
+.signup-ad .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-ad .container p:nth-child(2){
+    font-size: 0.9rem;
+}
+
+.signup-ad button{
+    background-color: #3882f6;
+    color: white;
+    border:2px white solid;
+    border-radius:8px;
+    font-weight: 650;
+    cursor: pointer;
+    padding: 0.2rem 1.5rem;
+}
+
+footer{
+    background-color:#1F2937;
+    text-align: center;
+    color: white;
+    padding: 2rem;
 }
